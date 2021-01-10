@@ -45,7 +45,7 @@ class AddFoodMaterial extends React.Component {
           })
         }
 
-        if (res.durum) {
+        if (res.durum) { 
           this.setState({
             hasError: !res.durum,
             hasSuccess: res.durum,

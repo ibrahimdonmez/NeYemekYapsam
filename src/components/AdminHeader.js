@@ -6,7 +6,7 @@ class AdminHeader extends React.Component {
 
     constructor() {
         super();
-        this.state = {
+        this.state = { 
             isNavOpen: false
         }
     }

@@ -179,7 +179,7 @@ class AddFood extends React.Component {
                     </li>
                   );
                 })}
-              </ul>
+              </ul> 
             </div>
             {this.state.hasError ? <Error /> : null}
             {this.state.hasSuccess ? <Success /> : null}

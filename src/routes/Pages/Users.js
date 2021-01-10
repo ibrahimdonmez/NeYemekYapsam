@@ -47,7 +47,7 @@ class Users extends React.Component {
       }
 
       if (!res.durum) {
-        this.setState({
+        this.setState({ 
           hasError: !res.durum,
           errorMessage: res.message
         })

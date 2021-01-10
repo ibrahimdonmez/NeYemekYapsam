@@ -45,7 +45,7 @@ class FeedBacks extends React.Component {
       if (res.durum) {
         window.location.reload(false);
       }
-
+ 
       if (!res.durum) {
         this.setState({
           hasError: !res.durum,

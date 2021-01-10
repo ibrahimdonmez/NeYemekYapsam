@@ -10,7 +10,7 @@ class PrivateLayout extends React.Component {
 
     return (
       <div>
-        {decodedUser != null && decodedUser.userRole == 0 ?
+        {decodedUser != null && decodedUser.userRole == 0 ? 
           <div className="d-flex" id="wrapper">
             <AdminHeader />
             <div id="page-content-wrapper">
